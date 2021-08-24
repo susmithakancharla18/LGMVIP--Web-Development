@@ -1,0 +1,44 @@
+.card {
+  margin: 20px;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  padding: 15px 15px;
+  display: flex;
+  cursor: pointer;
+  border-color: red;
+  border-radius: 15px;
+}
+
+.card-id {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.card-img-top {
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card:hover {
+  color: blue;
+  border-color: blue;
+  border-width: 2px;
+  background-color: #92e2fc;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    font-size: 0.7rem;
+    width: 60%;
+  }
+
+  .card-title {
+    font-size: 0.8rem;
+  }
+}

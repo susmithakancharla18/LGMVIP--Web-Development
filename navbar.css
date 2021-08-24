@@ -1,0 +1,46 @@
+.NavbarItems {
+  background-color: #899096;
+  background-size: cover;
+  height: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 60%;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #1e243b;
+  font-size: 30px;
+  font-family: bree serif;
+}
+
+.button {
+  background-color: #080a54;
+  color: white;
+  border-width: 0px;
+  background-size: 200% auto;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.button:hover {
+  height: 50px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .NavbarItems {
+    position: relative;
+    grid-gap: 10%;
+    display: flex;
+  }
+  .nav-button {
+    width: 50%;
+    height: 100%;
+  }
+  .navbar-logo {
+    margin-top: 10px;
+    font-size: large;
+  }
+}
