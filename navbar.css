@@ -1,9 +1,9 @@
 .NavbarItems {
-  background-color: #899096;
+  background-color: #e3c830;
   background-size: cover;
-  height: 70px;
+  height: 50px;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(1, auto);
   grid-gap: 60%;
   font-size: 1rem;
   align-items: center;
@@ -11,22 +11,22 @@
   align-items: center;
 }
 .name {
-  color: #1e243b;
+  color: #white;
   font-size: 30px;
-  font-family: bree serif;
+  font-family: "Roboto";
 }
 
 .button {
-  background-color: #080a54;
-  color: white;
-  border-width: 0px;
-  background-size: 200% auto;
+  background-color: #3252a8;
+  color: #a02fa8;
+  border-width: 5px;
+  background-size: 300% auto;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-left: 40px;
 }
 .button:hover {
-  height: 50px;
-  width: 100px;
+  height: 50;
+  width: 50;
 }
 
 @media screen and (max-width: 768px) {
