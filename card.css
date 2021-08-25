@@ -6,7 +6,7 @@
   padding: 15px 15px;
   display: flex;
   cursor: pointer;
-  border-color: red;
+  border-color: rgb(0, 47, 255);
   border-radius: 15px;
 }
 
@@ -28,7 +28,7 @@
 .card:hover {
   color: blue;
   border-color: blue;
-  border-width: 2px;
+  border-width: 1px;
   background-color: #92e2fc;
 }
 
